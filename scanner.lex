@@ -121,7 +121,8 @@ default                        return DEFAULT;
 		
 	}
 .		{
-			unclosedErr();
+			printf("Error %s\n",yytext);
+			exit(0);
 		}
 
 %%
